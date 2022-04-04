@@ -1,0 +1,16 @@
+#container {    
+    border: 3px solid black;
+    margin: auto;
+    height: 960px;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(16, 6.25% [col-start]);
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.cell:hover {
+    background-color: aqua;
+}
