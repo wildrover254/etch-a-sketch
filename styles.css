@@ -1,16 +1,51 @@
-#container {    
-    border: 3px solid black;
-    margin: auto;
-    height: 960px;
-    width: 960px;
+* {
+    background-color: #f6e5e4;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header {
+    border-bottom: 3px solid #1e2022;
+    padding: 3%;
+    text-align: center;
+    background-color: #ae2a2f;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    background-color: #ae2a2f;
+    font-size: 64px;
+}
+
+button {
+    align-self: center;
+    background-color: #f0f5f9;
+    border: 1px solid #1e2022;
+    border-radius: 10%;
+    font-size: larger;
+}
+
+main {
+    margin: 5%;
+}
+
+#grid-size {
+    display: none;
+}
+
+#container {  
+    margin: auto;  
+    border: 10px ridge #e7272d;
+    height: 800px;
+    width: 800px;
     display: grid;
-    grid-template-columns: repeat(16, 6.25% [col-start]);
 }
 
 .cell {
-    border: 1px solid black;
+    outline: 1px solid black;
+    background-color: #f0f5f9;
 }
 
-.cell:hover {
-    background-color: aqua;
+.hovered {
+    background-color: black;
 }
