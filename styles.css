@@ -1,26 +1,27 @@
 * {
-    background-color: #f6e5e4;
+    background-color: #f1f4c6;
     font-family: 'Permanent Marker', cursive;
 }
 
 header {
     border-bottom: 3px solid #1e2022;
+    border-right: 3px solid #1e2022;
     padding: 3%;
     text-align: center;
-    background-color: #ae2a2f;
+    background-color: #d6d0b8;
     display: flex;
     justify-content: space-around;
 }
 
 header h1 {
-    background-color: #ae2a2f;
+    background-color: #d6d0b8;
     font-size: 64px;
 }
 
 button {
     align-self: center;
     background-color: #f0f5f9;
-    border: 1px solid #1e2022;
+    border: 3px solid #1e2022;
     border-radius: 10%;
     font-size: larger;
 }
@@ -35,14 +36,14 @@ main {
 
 #container {  
     margin: auto;  
-    border: 10px ridge #e7272d;
+    border: 25px ridge #e7272d;
+    border-radius: 5%;
     height: 800px;
     width: 800px;
     display: grid;
 }
 
 .cell {
-    outline: 1px solid black;
     background-color: #f0f5f9;
 }
 
